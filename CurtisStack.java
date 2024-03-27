@@ -7,6 +7,9 @@ import java.util.List;
 * @param <T> as the type parameter
 */
 public class CurtisStack<T> {
+    /**
+    * The (I don't even know).
+    */
     private List<T> stackAsList;
 
     /**
