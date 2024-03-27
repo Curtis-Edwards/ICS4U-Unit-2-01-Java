@@ -8,7 +8,7 @@ import java.util.List;
 */
 public class CurtisStack<T> {
     /**
-    * The (I don't even know).
+    * Declares a private instance variable
     */
     private List<T> stackAsList;
 
