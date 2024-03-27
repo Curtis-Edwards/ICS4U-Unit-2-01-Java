@@ -10,16 +10,29 @@ import java.util.List;
 public class CurtisStack<T> {
     private List<T> stackAsList; // Use T as the type parameter
 
-    public CurtisStack() {
+    /**
+    * The constructor().
+    */
+    public constructor() {
         stackAsList = new ArrayList<>();
     }
 
+    /**
+    * The push() method.
+    *
+    * @param input
+    */
     public void push(T input) {
         stackAsList.add(input);
     }
 
+    /**
+    * The showStack() method.
+    *
+    * @return the values as a string
+    */
     public String showStack() {
-        StringBuilder values = new StringBuilder();
+        //StringBuilder values = new StringBuilder();
         for (int counter = 0; counter < stackAsList.size(); counter++) {
             values.append(stackAsList.get(counter)).append(", ");
         }
