@@ -9,21 +9,37 @@
 /**
 * This is the Main program.
 */
-public class Main {
+final class Main {
+    /**
+    * Prevent instantiation
+    * Throw an exception IllegalStateException.
+    * if this ever is called
+    *
+    * @throws IllegalStateException if instantiation is attempted
+    */
+    private Statistics() {
+        throw new IllegalStateException("Cannot be instantiated");
+    }
+
+    /**
+    * The starting main() function.
+    *
+    * @param args No args will be used
+    */
     public static void main(String[] args) {
-        CurtisStack<String> fruits = new CurtisStack<>();
+        final CurtisStack<String> fruits = new CurtisStack<>();
         fruits.push("apple");
         fruits.push("banana");
         fruits.push("cherry");
         System.out.println("fruits: " + fruits.showStack());
 
-        CurtisStack<String> colours = new CurtisStack<>();
+        final CurtisStack<String> colours = new CurtisStack<>();
         colours.push("red");
         colours.push("green");
         colours.push("blue");
         System.out.println("colours: " + colours.showStack());
 
-        CurtisStack<String> shapes = new CurtisStack<>();
+        final CurtisStack<String> shapes = new CurtisStack<>();
         shapes.push("square");
         shapes.push("triangle");
         shapes.push("circle");
