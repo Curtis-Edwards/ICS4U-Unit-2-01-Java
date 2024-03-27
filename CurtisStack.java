@@ -2,11 +2,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
-    * The CurtisStack() class.
-    *
-    * @param arrayOfIntegers the collection of integers
-    * @return the mean of the integers
-    */
+* The CurtisStack() class.
+*
+* @param arrayOfIntegers the collection of integers
+* @return the mean of the integers
+*/
 public class CurtisStack<T> {
     private List<T> stackAsList; // Use T as the type parameter
 
