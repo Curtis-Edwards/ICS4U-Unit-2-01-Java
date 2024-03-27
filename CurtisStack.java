@@ -1,14 +1,14 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class CurtisStack {
-    private List<String> stackAsList;
+public class CurtisStack<T> {
+    private List<T> stackAsList; // Use T as the type parameter
 
     public CurtisStack() {
         stackAsList = new ArrayList<>();
     }
 
-    public void push(String input) {
+    public void push(T input) {
         stackAsList.add(input);
     }
 
@@ -23,3 +23,4 @@ public class CurtisStack {
         return values.toString();
     }
 }
+
