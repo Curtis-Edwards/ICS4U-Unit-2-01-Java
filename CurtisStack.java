@@ -13,7 +13,7 @@ public class CurtisStack<T> {
     /**
     * The constructor().
     */
-    public constructor() {
+    public CurtisStack() {
         stackAsList = new ArrayList<>();
     }
 
