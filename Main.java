@@ -6,7 +6,9 @@
 * @since   2024-03-27
 */
 
-
+/**
+* This is the Main program.
+*/
 public class Main {
     public static void main(String[] args) {
         CurtisStack<String> fruits = new CurtisStack<>();
