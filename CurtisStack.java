@@ -7,7 +7,7 @@ import java.util.List;
     * @param arrayOfIntegers the collection of integers
     * @return the mean of the integers
     */
-public class CurtisStack {
+public class CurtisStack<T> {
     private List<T> stackAsList; // Use T as the type parameter
 
     public CurtisStack() {
