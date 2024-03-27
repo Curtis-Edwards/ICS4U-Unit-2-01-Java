@@ -20,6 +20,6 @@ public class CurtisStack<String> {
         if (values.length() > 0) {
             values.delete(values.length() - 2, values.length());
         }
-        return String.format("%d", values);
+        return values.toString();
     }
 }
