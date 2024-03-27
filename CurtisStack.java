@@ -4,10 +4,10 @@ import java.util.List;
 /**
 * The CurtisStack() class.
 *
-* @param T as the type parameter
+* @param <T> as the type parameter
 */
 public class CurtisStack<T> {
-    private List<T> stackAsList; // Use T as the type parameter
+    private List<T> stackAsList;
 
     /**
     * The constructor().
