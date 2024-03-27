@@ -1,8 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Stack;
 
-public class CurtisStack<String> {
+public class CurtisStack {
     private List<String> stackAsList;
 
     public CurtisStack() {
