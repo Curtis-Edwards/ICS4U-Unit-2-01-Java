@@ -32,7 +32,7 @@ public class CurtisStack<T> {
     * @return the values as a string
     */
     public String showStack() {
-        //StringBuilder values = new StringBuilder();
+        StringBuilder values = new StringBuilder();
         for (int counter = 0; counter < stackAsList.size(); counter++) {
             values.append(stackAsList.get(counter)).append(", ");
         }
