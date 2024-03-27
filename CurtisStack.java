@@ -1,7 +1,13 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class CurtisStack<T> {
+/**
+    * The CurtisStack() class.
+    *
+    * @param arrayOfIntegers the collection of integers
+    * @return the mean of the integers
+    */
+public class CurtisStack {
     private List<T> stackAsList; // Use T as the type parameter
 
     public CurtisStack() {
