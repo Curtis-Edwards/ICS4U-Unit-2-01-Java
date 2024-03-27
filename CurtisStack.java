@@ -1,3 +1,11 @@
+/*
+* The CurtisStack Class.
+*
+* @author  Curtis Edwards
+* @version 1.0
+* @since   2024-03-27
+*/
+
 import java.util.ArrayList;
 import java.util.List;
 
