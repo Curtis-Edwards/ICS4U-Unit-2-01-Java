@@ -16,7 +16,7 @@ public class CurtisStack {
     /**
      * Declares a private instance variable.
      */
-    private List<Object> stackAsList;
+    private List<String> stackAsList;
 
     /**
      * The constructor.
@@ -30,7 +30,7 @@ public class CurtisStack {
      *
      * @param input from Main.java
      */
-    public void push(Object input) {
+    public void push(String input) {
         stackAsList.add(input);
     }
 
@@ -40,13 +40,13 @@ public class CurtisStack {
      * @return the values as a string
      */
     public String showStack() {
-        final StringBuilder values = new StringBuilder();
+        String values = "";
         for (int counter = 0; counter < stackAsList.size(); counter++) {
-            values.append(stackAsList.get(counter)).append(", ");
+            values += stackAsList.get(counter);
+            if (counter < stackAsList.size() - 1) {
+                values += ", ";
+            }
         }
-        if (values.length() > 0) {
-            values.delete(values.length() - 2, values.length());
-        }
-        return values.toString();
+    return values;
     }
 }
