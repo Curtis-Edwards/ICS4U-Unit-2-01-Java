@@ -16,7 +16,7 @@ public class CurtisStack {
     /**
      * Declares a private instance variable.
      */
-    //private List<String> stackAsList;
+    private List<String> stackAsList;
 
     /**
      * The constructor.
